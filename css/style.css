@@ -1,0 +1,125 @@
+:root {
+  --link-background-color: #824FF1;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+nav h1 {
+  display: inline-block;
+  font-family: Circular Std;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 160%;
+  letter-spacing: -0.02em;
+  color: #0A1B32;
+  margin-top: 37px;
+  margin-left: 80px;
+}
+
+nav h1::after {
+  content: ".";
+  font-size: 50px;
+  color: #824FF1;
+}
+
+nav ul {
+  display: inline-block;
+  width: 84%;
+  list-style-type: none;
+  margin-left: 50px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 38px;
+}
+
+nav ul li:nth-last-child(2) {
+  float: right;
+}
+
+nav ul li:nth-last-child(1) {
+  float: right;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #1B0A42;
+}
+
+nav ul li .btn {
+  color: #FFFFFF;
+  background: var(--link-background-color);
+  border-radius: 6px;
+  padding: 18px 31px;
+}
+
+.desc {
+  display: inline-block;
+}
+
+.desc__descinfo {
+  display: inline-block;
+  margin: 100px 90px auto 200px;
+}
+
+.desc__descinfo__header {
+  width: 500px;
+  font-family: Ramaraja;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 76px;
+  letter-spacing: 0.02em;
+  color: #1B0A42;
+}
+
+.desc__descinfo__paragraph {
+  margin-bottom: 50px;
+  width: 550px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #9A9A9A;
+}
+
+.desc__descinfo__link {
+  color: #FFFFFF;
+  background: var(--link-background-color);
+  border-radius: 6px;
+  padding: 18px 31px;
+  text-decoration: none;
+}
+
+.desc__image {
+  position: relative;
+  margin-top: 100px;
+  margin-left: 200px;
+  float: right;
+}
+
+.desc__image__mainpic {
+  width: 400px;
+  right: 150px;
+}
+
+.desc__image__wavepic {
+  position: absolute;
+  width: 550px;
+  right: -100px;
+  bottom: 50px;
+}
+/*# sourceMappingURL=style.css.map */

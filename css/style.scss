@@ -1,0 +1,112 @@
+:root {
+    --link-background-color: #824FF1;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+nav {
+    h1 {
+        display: inline-block;
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 160%;
+        letter-spacing: -0.02em;
+        color: #0A1B32;
+        margin-top: 37px;
+        margin-left: 80px;
+        &::after {
+            content: ".";
+            font-size: 50px;
+            color: #824FF1;
+        }
+    }
+    ul {
+        display: inline-block;
+        width: 84%;
+        list-style-type: none;
+        margin-left: 50px;
+        li {
+            display: inline-block;
+            margin-right: 38px;
+            &:nth-last-child(2) {
+                float: right;
+            }
+            &:nth-last-child(1) {
+                float: right;
+            }
+            a {
+                text-decoration: none;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                letter-spacing: 0.02em;
+                color: #1B0A42;
+            }
+            .btn {
+                color: #FFFFFF;
+                background: var(--link-background-color);
+                border-radius: 6px;
+                padding: 18px 31px;
+            }
+        }
+    }
+}
+
+.desc {
+    display: inline-block;
+    &__descinfo {
+        display: inline-block;
+        margin: 100px 90px auto 200px;
+        &__header {
+            width: 500px;
+            font-family: Ramaraja;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 72px;
+            line-height: 76px;
+            letter-spacing: 0.02em;
+            color: #1B0A42;
+        }
+        &__paragraph {
+            margin-bottom: 50px;
+            width: 550px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 32px;
+            letter-spacing: 0.02em;
+            color: #9A9A9A;
+        }
+        &__link {
+            color: #FFFFFF;
+            background: var(--link-background-color);
+            border-radius: 6px;
+            padding: 18px 31px;
+            text-decoration: none;
+        }
+    }
+    &__image {
+        position: relative;
+        margin-top: 100px;
+        margin-left: 200px;
+        float: right;
+        &__mainpic {
+            width: 400px;
+            right: 150px;
+        }
+        &__wavepic {
+            position: absolute;
+            width: 550px;
+            right: -100px;
+            bottom: 50px;
+        }
+    }
+}
